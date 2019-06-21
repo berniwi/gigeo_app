@@ -7,3 +7,17 @@
   padding-left: 15vw;
   color: $gris_oscuro;
 }
+
+@media only screen and (min-width: 768px){
+  .cabecera__nav__li{
+    display: inline-block;
+    padding-top: 6vh;
+  }
+
+  .cabecera__nav__li--lg{
+    display: inline-block;
+    color: $gris_oscuro;
+    padding-top: 6vh;
+  }
+
+}
