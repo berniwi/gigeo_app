@@ -1,13 +1,19 @@
 .videos{
   text-align: center;
-  padding: 10vh 10vw;
+  padding: 5vh 10vw 10vh 10vw;
 
   img{
     width: 80vw;
     height: auto;
+    padding-bottom: 1vh;
   }
+}
+
+.videos__content{
+  padding-top: 4vh;
 }
 
 .videos__text{
   text-align: left;
+  padding-bottom: 1vh;
 }

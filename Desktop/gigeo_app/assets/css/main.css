@@ -9743,8 +9743,12 @@ h2 {
 
 .cabecera__img {
   background-image: url("../img/image-banner.png");
-  height: 20vh;
+  height: 15vh;
   background-size: cover;
+}
+
+.author {
+  padding-top: 5vh;
 }
 
 .author__img {
@@ -9753,17 +9757,28 @@ h2 {
   border-radius: 100px;
 }
 
+.author__text {
+  padding-top: 3vh;
+  padding-left: 6vw;
+}
+
 .videos {
   text-align: center;
-  padding: 10vh 10vw;
+  padding: 5vh 10vw 10vh 10vw;
 }
 .videos img {
   width: 80vw;
   height: auto;
+  padding-bottom: 1vh;
+}
+
+.videos__content {
+  padding-top: 4vh;
 }
 
 .videos__text {
   text-align: left;
+  padding-bottom: 1vh;
 }
 
 .cabecera__brand {
@@ -9777,7 +9792,9 @@ h2 {
 .cabecera__brand span {
   font-family: "Abel", sans-serif;
   font-size: 10px;
-  padding-bottom: 100px;
+  position: relative;
+  bottom: 25px;
+  right: 10px;
 }
 
 .cabecera__nav__li {
