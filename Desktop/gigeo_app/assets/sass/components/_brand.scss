@@ -1,0 +1,18 @@
+.cabecera__brand{
+  height: 120px;
+  width: 200px;
+  font-family: $letra2;
+  font-size: $xx-large;
+  padding-top: 6vh;
+  padding-left: 5vw;
+  background-color: red;
+
+
+  span{
+    font-family: $letra3;
+    font-size: $small;
+    position: relative;
+    bottom: 25px;
+    right: 10px;
+  }
+}

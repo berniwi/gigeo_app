@@ -1,18 +1,5 @@
-.cabecera__brand{
-  height: 50vh;
-  font-family: $letra2;
-  font-size: $xx-large;
-  background-color: red;
-
-  span{
-    font-family: $letra3;
-    font-size: $small;
-    position: relative;
-    bottom: 25px;
-    right: 10px;
-  }
-}
-
-.cabecera__nav__li{
-  display: none;
+.cabecera__img{
+  background-image: url("../img/image-banner.png");
+  height: 20vh;
+  background-size: cover;
 }

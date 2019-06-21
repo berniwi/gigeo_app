@@ -9709,6 +9709,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
@@ -9737,22 +9741,53 @@ h2 {
   color: #8B9096;
 }
 
+.cabecera__img {
+  background-image: url("../img/image-banner.png");
+  height: 20vh;
+  background-size: cover;
+}
+
+.author__img {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 100px;
+}
+
+.videos {
+  text-align: center;
+  padding: 10vh 10vw;
+}
+.videos img {
+  width: 80vw;
+  height: auto;
+}
+
+.videos__text {
+  text-align: left;
+}
+
 .cabecera__brand {
-  height: 50vh;
+  height: 120px;
+  width: 200px;
   font-family: "Encode Sans Expanded", sans-serif;
   font-size: 40px;
-  background-color: red;
+  padding-top: 6vh;
+  padding-left: 5vw;
 }
 .cabecera__brand span {
   font-family: "Abel", sans-serif;
   font-size: 10px;
-  position: relative;
-  bottom: 25px;
-  right: 10px;
+  padding-bottom: 100px;
 }
 
 .cabecera__nav__li {
   display: none;
+}
+
+.cabecera__nav__li--lg {
+  padding-top: 6vh;
+  padding-left: 15vw;
+  color: #595E64;
 }
 
 /*# sourceMappingURL=main.css.map */
