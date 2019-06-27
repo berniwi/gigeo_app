@@ -9749,49 +9749,49 @@ h2 {
 
 @media only screen and (min-width: 768px) {
   .cabecera__img {
-    background-image: url("../img/image-banner.png");
-    height: 40vh;
-    background-size: cover;
+    height: 50vh;
   }
 }
-.author {
+.autor {
   padding-top: 5vh;
 }
-
-.author__img {
-  width: 30vw;
-  height: 30vw;
+.autor__img {
+  margin-left: 40%;
+  width: 20vw;
+  height: 20vw;
   border-radius: 100px;
 }
-
-.author__text {
-  padding-top: 5vh;
+.autor__text {
+  padding-top: 3vh;
   padding-left: 6vw;
 }
 
-@media only screen and (min-width: 768px) {
-  .author {
+/*
+@media only screen and (min-width: 768px){
+
+  .author{
     padding-top: 3vh;
-    border-bottom: 1px solid #8B9096;
+    border-bottom: 1px solid $gris;
   }
 
-  .author__img {
+  .author__img{
     width: 15vh;
     height: 15vh;
     border-radius: 100px;
   }
 
-  .author__text {
+  .author__text{
     padding-top: 5vh;
     padding-left: 6vw;
   }
-}
+
+}*/
 .videos {
   text-align: center;
-  padding: 5vh 10vw 10vh 10vw;
+  padding: 5vh 15vw 5vh 15vw;
 }
 .videos img {
-  width: 80vw;
+  width: 70vw;
   height: auto;
   padding-bottom: 1vh;
 }
@@ -9805,7 +9805,8 @@ h2 {
   padding-bottom: 1vh;
 }
 
-.cabecera__brand {
+.cabecera__logo {
+  display: flex;
   height: 120px;
   width: 200px;
   font-family: "Encode Sans Expanded", sans-serif;
@@ -9813,21 +9814,21 @@ h2 {
   padding-top: 6vh;
   padding-left: 5vw;
 }
-.cabecera__brand span {
+.cabecera__logo__span {
   font-family: "Abel", sans-serif;
   font-size: 10px;
-  position: relative;
-  bottom: 25px;
-  right: 10px;
 }
 
+.cabecera__nav {
+  display: flex;
+  justify-content: flex-end;
+}
 .cabecera__nav__li {
   display: none;
 }
-
 .cabecera__nav__li--lg {
   padding-top: 6vh;
-  padding-left: 15vw;
+  padding-right: 10vw;
   color: #595E64;
 }
 
@@ -9835,12 +9836,13 @@ h2 {
   .cabecera__nav__li {
     display: inline-block;
     padding-top: 6vh;
+    margin-left: 2vw;
   }
-
   .cabecera__nav__li--lg {
     display: inline-block;
     color: #595E64;
     padding-top: 6vh;
+    margin-left: 2vw;
   }
 }
 .boton {

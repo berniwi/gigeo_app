@@ -1,0 +1,15 @@
+.cabecera{
+  &__img{
+  background-image: url("../img/image-banner.png");
+  height: 15vh;
+  background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .cabecera{
+    &__img{
+      height: 50vh;
+    }
+  }
+}

@@ -1,4 +1,5 @@
-.cabecera__brand{
+.cabecera__logo{
+  display: flex;
   height: 120px;
   width: 200px;
   font-family: $letra2;
@@ -7,11 +8,8 @@
   padding-left: 5vw;
 
 
-  span{
+  &__span{
     font-family: $letra3;
     font-size: $small;
-    position: relative;
-    bottom: 25px;
-    right: 10px;
   }
 }

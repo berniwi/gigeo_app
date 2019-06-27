@@ -3,12 +3,13 @@
 @import 'abstracts/variables';
 
 @import 'base/reset';
+@import 'base/base';
 @import 'base/typography';
 
-@import 'layouts/header';
-@import 'layouts/author';
+@import 'layouts/cabecera';
+@import 'layouts/autor';
 @import 'layouts/videos';
 
-@import 'components/brand';
+@import 'components/logo';
 @import 'components/nav';
 @import 'components/buttons';
