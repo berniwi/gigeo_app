@@ -17,24 +17,18 @@
 
 
 
-
-/*
 @media only screen and (min-width: 768px){
 
-  .author{
-    padding-top: 3vh;
+  .autor{
+    padding: 2vh 0;
     border-bottom: 1px solid $gris;
+
+    &__img{
+      margin-left: 90%;
+      width: 10vh;
+      height: 10vh;
+      border-radius: 100px;
+    }
   }
 
-  .author__img{
-    width: 15vh;
-    height: 15vh;
-    border-radius: 100px;
-  }
-
-  .author__text{
-    padding-top: 5vh;
-    padding-left: 6vw;
-  }
-
-}*/
+}
